@@ -164,23 +164,23 @@ python filtering_app_after_crawling_arxiv.py
 
 ### 1. 后台爬取arxiv您对应需求下的论文的运行界面
 
-<img src="C:\Users\Yinzy\AppData\Roaming\Typora\typora-user-images\image-20250827231828746.png" alt="image-20250827231828746" style="zoom:50%;" />
+<img src="./screenshot/my_screenshot1.png" style="zoom:50%;" />
 
 ### 2. 论文筛选系统---配置界面
 
-<img src="C:\Users\Yinzy\AppData\Roaming\Typora\typora-user-images\image-20250827232230500.png" alt="image-20250827232230500" style="zoom:60%;" />
+<img src="./screenshot/my_screenshot2.png" alt="image-20250827232230500" style="zoom:60%;" />
 
-### 3. 论文筛选系统---初筛界面
+### 3. 论文筛选系统---粗筛界面
 
-![image-20250827232519246](C:\Users\Yinzy\AppData\Roaming\Typora\typora-user-images\image-20250827232519246.png)
+![image-20250827232519246](./screenshot/my_screenshot3.png)
 
 ### 4. 论文筛选系统---精排界面
 
-![image-20250827232627223](C:\Users\Yinzy\AppData\Roaming\Typora\typora-user-images\image-20250827232627223.png)
+![image-20250827232627223](./screenshot/my_screenshot4.png)
 
 ### 5.论文筛选系统---帮助界面
 
-<img src="C:\Users\Yinzy\AppData\Roaming\Typora\typora-user-images\image-20250827232810220.png" alt="image-20250827232810220" style="zoom:80%;" />
+<img src="./screenshot/my_screenshot5.png" alt="image-20250827232810220" style="zoom:80%;" />
 
 
 ## 📂 项目结构与数据说明 (Project Structure & Data)
@@ -204,15 +204,3 @@ python filtering_app_after_crawling_arxiv.py
 └── 📄 README.md                         # 本说明文档
 ```
 
-
-## 🤝 贡献 (Contributing)
-
-我们欢迎任何形式的贡献！如果您有任何建议或发现任何问题，请随时：
-
-- 提交一个 [Issue](https://www.google.com/search?q=https://github.com/Takethelead1902/Thesis_Crawling_and_Filtering_System/issues&authuser=1) 来报告错误或提出功能建议。
-- 创建一个 [Pull Request](https://www.google.com/search?q=https://github.com/Takethelead1902/Thesis_Crawling_and_Filtering_System/pulls&authuser=1) 来贡献您的代码。
-
-
-## 📜 开源许可证 (License)
-
-本项目基于 [MIT License](https://www.google.com/search?q=LICENSE&authuser=1) 开源。
