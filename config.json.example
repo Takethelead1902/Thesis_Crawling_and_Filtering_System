@@ -1,0 +1,7 @@
+{
+    "api_key": "sk-YOUR_API_KEY_HERE",
+    "base_url": "https://ark.cn-beijing.volces.com/api/v3/",
+    "model": "doubao-1-5-pro-32k-250115",
+    "rounds": 3,
+    "max_concurrent": 50
+}

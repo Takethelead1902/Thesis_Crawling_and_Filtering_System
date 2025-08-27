@@ -1,0 +1,26 @@
+# 1. 忽略所有在 arxiv_papers_new/ 文件夹中的内容
+arxiv_papers_new/*
+
+# 2. 但是，不要忽略 (豁免) arxiv_papers_new/ 文件夹本身
+#    以及我们想作为样本保留的那个特定的 .json 文件。
+#    注意：这个豁免规则必须在忽略规则之后！
+!arxiv_papers_new/
+!arxiv_papers_new/arxiv_2025_08_llm_papers.json
+
+# 忽略Python的缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*~
+
+# 忽略Gradio的缓存和日志
+.gradio_cache/
+gradio_log.txt
+
+# 忽略本地配置文件，防止API Key泄露
+config.json
+
+# 忽略IDE和操作系统文件
+.vscode/
+.idea/
+.DS_Store

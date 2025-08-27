@@ -1,0 +1,546 @@
+{
+  "total_papers": 702,
+  "rounds_count": 2,
+  "max_concurrent": 150,
+  "round_results": [
+    {
+      "round": 1,
+      "count": 25
+    },
+    {
+      "round": 2,
+      "count": 24
+    }
+  ],
+  "final_relevant_papers_count": 25,
+  "relevant_papers": [
+    {
+      "title": "A Multi-Stage Large Language Model Framework for Extracting Suicide-Related Social Determinants of Health",
+      "abstract": "Background: Understanding social determinants of health (SDoH) factors\ncontributing to suicide incidents is crucial for early intervention and\nprevention. However, data-driven approaches to this goal face challenges such\nas long-tailed factor distributions, analyzing pivotal stressors preceding\nsuicide incidents, and limited model explainability. Methods: We present a\nmulti-stage large language model framework to enhance SDoH factor extraction\nfrom unstructured text. Our approach was compared to other state-of-the-art\nlanguage models (i.e., pre-trained BioBERT and GPT-3.5-turbo) and reasoning\nmodels (i.e., DeepSeek-R1). We also evaluated how the model's explanations help\npeople annotate SDoH factors more quickly and accurately. The analysis included\nboth automated comparisons and a pilot user study. Results: We show that our\nproposed framework demonstrated performance boosts in the overarching task of\nextracting SDoH factors and in the finer-grained tasks of retrieving relevant\ncontext. Additionally, we show that fine-tuning a smaller, task-specific model\nachieves comparable or better performance with reduced inference costs. The\nmulti-stage design not only enhances extraction but also provides intermediate\nexplanations, improving model explainability. Conclusions: Our approach\nimproves both the accuracy and transparency of extracting suicide-related SDoH\nfrom unstructured texts. These advancements have the potential to support early\nidentification of individuals at risk and inform more effective prevention\nstrategies.",
+      "authors": [
+        "Song Wang",
+        "Yishu Wei",
+        "Haotian Ma",
+        "Max Lovitt",
+        "Kelly Deng",
+        "Yuan Meng",
+        "Zihan Xu",
+        "Jingze Zhang",
+        "Yunyu Xiao",
+        "Ying Ding",
+        "Xuhai Xu",
+        "Joydeep Ghosh",
+        "Yifan Peng"
+      ],
+      "published": "2025-08-07T03:36:38+00:00",
+      "updated": "2025-08-07T03:36:38+00:00",
+      "arxiv_id": "2508.05003v1",
+      "url": "http://arxiv.org/pdf/2508.05003v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "AGENTiGraph: A Multi-Agent Knowledge Graph Framework for Interactive, Domain-Specific LLM Chatbots",
+      "abstract": "AGENTiGraph is a user-friendly, agent-driven system that enables intuitive\ninteraction and management of domain-specific data through the manipulation of\nknowledge graphs in natural language. It gives non-technical users a complete,\nvisual solution to incrementally build and refine their knowledge bases,\nallowing multi-round dialogues and dynamic updates without specialized query\nlanguages. The flexible design of AGENTiGraph, including intent classification,\ntask planning, and automatic knowledge integration, ensures seamless reasoning\nbetween diverse tasks. Evaluated on a 3,500-query benchmark within an\neducational scenario, the system outperforms strong zero-shot baselines\n(achieving 95.12% classification accuracy, 90.45% execution success),\nindicating potential scalability to compliance-critical or multi-step queries\nin legal and medical domains, e.g., incorporating new statutes or research on\nthe fly. Our open-source demo offers a powerful new paradigm for multi-turn\nenterprise knowledge management that bridges LLMs and structured graphs.",
+      "authors": [
+        "Xinjie Zhao",
+        "Moritz Blum",
+        "Fan Gao",
+        "Yingjian Chen",
+        "Boming Yang",
+        "Luis Marquez-Carpintero",
+        "Mónica Pina-Navarro",
+        "Yanran Fu",
+        "So Morikawa",
+        "Yusuke Iwasawa",
+        "Yutaka Matsuo",
+        "Chanjun Park",
+        "Irene Li"
+      ],
+      "published": "2025-08-05T01:55:06+00:00",
+      "updated": "2025-08-05T01:55:06+00:00",
+      "arxiv_id": "2508.02999v1",
+      "url": "http://arxiv.org/pdf/2508.02999v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.AI"
+    },
+    {
+      "title": "AffectGPT-R1: Leveraging Reinforcement Learning for Open-Vocabulary Emotion Recognition",
+      "abstract": "Open-Vocabulary Multimodal Emotion Recognition (OV-MER) aims to predict\nemotions without being constrained by predefined label spaces, enabling\nfine-grained and human-like emotion understanding. Unlike traditional\ndiscriminative methods, OV-MER leverages generative models, such as large\nlanguage models (LLMs) with extensive vocabularies, to capture the full\nspectrum of emotions. Previous approaches (like AffectGPT) primarily rely on\ntoken-level loss for training. However, this objective does not align with the\nemotion wheel (EW)-based evaluation metrics used in OV-MER. Unfortunately,\nEW-based metrics cannot be directly optimized via gradient backpropagation. In\nthis paper, we propose AffectGPT-R1, a reinforcement learning framework that\ndirectly optimizes performance on EW-based metrics. Specifically, we treat\nthese metrics as the reward function and employ Group Relative Policy\nOptimization (GRPO) to maximize rewards. Experimental results demonstrate that\nAffectGPT-R1 achieves significant improvements on OV-MER. We hope this work\nadvances the field of multimodal emotion recognition. Our code will be publicly\navailable at:https://github.com/zeroQiaoba/AffectGPT.",
+      "authors": [
+        "Zheng Lian"
+      ],
+      "published": "2025-08-02T11:16:47+00:00",
+      "updated": "2025-08-02T11:16:47+00:00",
+      "arxiv_id": "2508.01318v1",
+      "url": "http://arxiv.org/pdf/2508.01318v1",
+      "categories": [
+        "cs.HC"
+      ],
+      "primary_category": "cs.HC"
+    },
+    {
+      "title": "Asking the Right Questions: Benchmarking Large Language Models in the Development of Clinical Consultation Templates",
+      "abstract": "This study evaluates the capacity of large language models (LLMs) to generate\nstructured clinical consultation templates for electronic consultation. Using\n145 expert-crafted templates developed and routinely used by Stanford's\neConsult team, we assess frontier models -- including o3, GPT-4o, Kimi K2,\nClaude 4 Sonnet, Llama 3 70B, and Gemini 2.5 Pro -- for their ability to\nproduce clinically coherent, concise, and prioritized clinical question\nschemas. Through a multi-agent pipeline combining prompt optimization, semantic\nautograding, and prioritization analysis, we show that while models like o3\nachieve high comprehensiveness (up to 92.2\\%), they consistently generate\nexcessively long templates and fail to correctly prioritize the most clinically\nimportant questions under length constraints. Performance varies across\nspecialties, with significant degradation in narrative-driven fields such as\npsychiatry and pain medicine. Our findings demonstrate that LLMs can enhance\nstructured clinical information exchange between physicians, while highlighting\nthe need for more robust evaluation methods that capture a model's ability to\nprioritize clinically salient information within the time constraints of\nreal-world physician communication.",
+      "authors": [
+        "Liam G. McCoy",
+        "Fateme Nateghi Haredasht",
+        "Kanav Chopra",
+        "David Wu",
+        "David JH Wu",
+        "Abass Conteh",
+        "Sarita Khemani",
+        "Saloni Kumar Maharaj",
+        "Vishnu Ravi",
+        "Arth Pahwa",
+        "Yingjie Weng",
+        "Leah Rosengaus",
+        "Lena Giang",
+        "Kelvin Zhenghao Li",
+        "Olivia Jee",
+        "Daniel Shirvani",
+        "Ethan Goh",
+        "Jonathan H. Chen"
+      ],
+      "published": "2025-08-02T02:51:27+00:00",
+      "updated": "2025-08-02T02:51:27+00:00",
+      "arxiv_id": "2508.01159v1",
+      "url": "http://arxiv.org/pdf/2508.01159v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "Benchmarking and Bridging Emotion Conflicts for Multimodal Emotion Reasoning",
+      "abstract": "Despite their strong performance in multimodal emotion reasoning, existing\nMultimodal Large Language Models (MLLMs) often overlook the scenarios involving\nemotion conflicts, where emotional cues from different modalities are\ninconsistent. To fill this gap, we first introduce CA-MER, a new benchmark\ndesigned to examine MLLMs under realistic emotion conflicts. It consists of\nthree subsets: video-aligned, audio-aligned, and consistent, where only one or\nall modalities reflect the true emotion. However, evaluations on our CA-MER\nreveal that current state-of-the-art emotion MLLMs systematically over-rely on\naudio signal during emotion conflicts, neglecting critical cues from visual\nmodality. To mitigate this bias, we propose MoSEAR, a parameter-efficient\nframework that promotes balanced modality integration. MoSEAR consists of two\nmodules: (1)MoSE, modality-specific experts with a regularized gating mechanism\nthat reduces modality bias in the fine-tuning heads; and (2)AR, an attention\nreallocation mechanism that rebalances modality contributions in frozen\nbackbones during inference. Our framework offers two key advantages: it\nmitigates emotion conflicts and improves performance on consistent\nsamples-without incurring a trade-off between audio and visual modalities.\nExperiments on multiple benchmarks-including MER2023, EMER, DFEW, and our\nCA-MER-demonstrate that MoSEAR achieves state-of-the-art performance,\nparticularly under modality conflict conditions.",
+      "authors": [
+        "Zhiyuan Han",
+        "Beier Zhu",
+        "Yanlong Xu",
+        "Peipei Song",
+        "Xun Yang"
+      ],
+      "published": "2025-08-02T04:03:44+00:00",
+      "updated": "2025-08-02T04:03:44+00:00",
+      "arxiv_id": "2508.01181v1",
+      "url": "http://arxiv.org/pdf/2508.01181v1",
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.MM",
+        "cs.SD",
+        "eess.AS",
+        "68",
+        "I.2.10"
+      ],
+      "primary_category": "cs.AI"
+    },
+    {
+      "title": "CSIRO-LT at SemEval-2025 Task 11: Adapting LLMs for Emotion Recognition for Multiple Languages",
+      "abstract": "Detecting emotions across different languages is challenging due to the\nvaried and culturally nuanced ways of emotional expressions. The\n\\textit{Semeval 2025 Task 11: Bridging the Gap in Text-Based emotion} shared\ntask was organised to investigate emotion recognition across different\nlanguages. The goal of the task is to implement an emotion recogniser that can\nidentify the basic emotional states that general third-party observers would\nattribute to an author based on their written text snippet, along with the\nintensity of those emotions. We report our investigation of various\ntask-adaptation strategies for LLMs in emotion recognition. We show that the\nmost effective method for this task is to fine-tune a pre-trained multilingual\nLLM with LoRA setting separately for each language.",
+      "authors": [
+        "Jiyu Chen",
+        "Necva Bölücü",
+        "Sarvnaz Karimi",
+        "Diego Mollá",
+        "Cécile L. Paris"
+      ],
+      "published": "2025-08-02T02:55:26+00:00",
+      "updated": "2025-08-02T02:55:26+00:00",
+      "arxiv_id": "2508.01161v1",
+      "url": "http://arxiv.org/pdf/2508.01161v1",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "Can LLMs Generate High-Quality Task-Specific Conversations?",
+      "abstract": "This paper introduces a parameterization framework for controlling\nconversation quality in large language models. We explore nine key parameters\nacross six dimensions that enable precise specification of dialogue properties.\nThrough experiments with state-of-the-art LLMs, we demonstrate that\nparameter-based control produces statistically significant differences in\ngenerated conversation properties. Our approach addresses challenges in\nconversation generation, including topic coherence, knowledge progression,\ncharacter consistency, and control granularity. The framework provides a\nstandardized method for conversation quality control with applications in\neducation, therapy, customer service, and entertainment. Future work will focus\non implementing additional parameters through architectural modifications and\ndeveloping benchmark datasets for evaluation.",
+      "authors": [
+        "Shengqi Li",
+        "Amarnath Gupta"
+      ],
+      "published": "2025-08-04T22:07:08+00:00",
+      "updated": "2025-08-04T22:07:08+00:00",
+      "arxiv_id": "2508.02931v1",
+      "url": "http://arxiv.org/pdf/2508.02931v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "Can Large Language Models Generate Effective Datasets for Emotion Recognition in Conversations?",
+      "abstract": "Emotion recognition in conversations (ERC) focuses on identifying emotion\nshifts within interactions, representing a significant step toward advancing\nmachine intelligence. However, ERC data remains scarce, and existing datasets\nface numerous challenges due to their highly biased sources and the inherent\nsubjectivity of soft labels. Even though Large Language Models (LLMs) have\ndemonstrated their quality in many affective tasks, they are typically\nexpensive to train, and their application to ERC tasks--particularly in data\ngeneration--remains limited. To address these challenges, we employ a small,\nresource-efficient, and general-purpose LLM to synthesize ERC datasets with\ndiverse properties, supplementing the three most widely used ERC benchmarks. We\ngenerate six novel datasets, with two tailored to enhance each benchmark. We\nevaluate the utility of these datasets to (1) supplement existing datasets for\nERC classification, and (2) analyze the effects of label imbalance in ERC. Our\nexperimental results indicate that ERC classifier models trained on the\ngenerated datasets exhibit strong robustness and consistently achieve\nstatistically significant performance improvements on existing ERC benchmarks.",
+      "authors": [
+        "Burak Can Kaplan",
+        "Hugo Cesar De Castro Carneiro",
+        "Stefan Wermter"
+      ],
+      "published": "2025-08-07T15:13:55+00:00",
+      "updated": "2025-08-07T15:13:55+00:00",
+      "arxiv_id": "2508.05474v1",
+      "url": "http://arxiv.org/pdf/2508.05474v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.AI"
+    },
+    {
+      "title": "Chain of Questions: Guiding Multimodal Curiosity in Language Models",
+      "abstract": "Reasoning capabilities in large language models (LLMs) have substantially\nadvanced through methods such as chain-of-thought and explicit step-by-step\nexplanations. However, these improvements have not yet fully transitioned to\nmultimodal contexts, where models must proactively decide which sensory\nmodalities such as vision, audio, or spatial perception to engage when\ninteracting with complex real-world environments. In this paper, we introduce\nthe Chain of Questions (CoQ) framework, a curiosity-driven reasoning approach\nthat encourages multimodal language models to dynamically generate targeted\nquestions regarding their surroundings. These generated questions guide the\nmodel to selectively activate relevant modalities, thereby gathering critical\ninformation necessary for accurate reasoning and response generation. We\nevaluate our framework on a novel multimodal benchmark dataset, assembled by\nintegrating WebGPT, ScienceQA, AVSD, and ScanQA datasets. Experimental results\ndemonstrate that our CoQ method improves a foundation model's ability to\neffectively identify and integrate pertinent sensory information. This leads to\nimproved accuracy, interpretability, and alignment of the reasoning process\nwith diverse multimodal tasks.",
+      "authors": [
+        "Nima Iji",
+        "Kia Dashtipour"
+      ],
+      "published": "2025-08-06T11:42:54+00:00",
+      "updated": "2025-08-06T11:42:54+00:00",
+      "arxiv_id": "2508.04350v1",
+      "url": "http://arxiv.org/pdf/2508.04350v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "Dialogue Systems Engineering: A Survey and Future Directions",
+      "abstract": "This paper proposes to refer to the field of software engineering related to\nthe life cycle of dialogue systems as Dialogue Systems Engineering, and surveys\nthis field while also discussing its future directions. With the advancement of\nlarge language models, the core technologies underlying dialogue systems have\nsignificantly progressed. As a result, dialogue system technology is now\nexpected to be applied to solving various societal issues and in business\ncontexts. To achieve this, it is important to build, operate, and continuously\nimprove dialogue systems correctly and efficiently. Accordingly, in addition to\napplying existing software engineering knowledge, it is becoming increasingly\nimportant to evolve software engineering tailored specifically to dialogue\nsystems. In this paper, we enumerate the knowledge areas of dialogue systems\nengineering based on those of software engineering, as defined in the Software\nEngineering Body of Knowledge (SWEBOK) Version 4.0, and survey each area. Based\non this survey, we identify unexplored topics in each area and discuss the\nfuture direction of dialogue systems engineering.",
+      "authors": [
+        "Mikio Nakano",
+        "Hironori Takeuchi",
+        "Sadahiro Yoshikawa",
+        "Yoichi Matsuyama",
+        "Kazunori Komatani"
+      ],
+      "published": "2025-08-04T10:49:01+00:00",
+      "updated": "2025-08-04T10:49:01+00:00",
+      "arxiv_id": "2508.02279v1",
+      "url": "http://arxiv.org/pdf/2508.02279v1",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.SE"
+    },
+    {
+      "title": "Enhancing the Preference Extractor in Multi-turn Dialogues: From Annotating Disasters to Accurate Preference Extraction",
+      "abstract": "Identifying user preferences in dialogue systems is a pivotal aspect of\nproviding satisfying services. Current research shows that using large language\nmodels (LLMs) to fine-tune a task-specific preference extractor yields\nexcellent results in terms of accuracy and generalization. However, the primary\nchallenge stems from the inherent difficulty in obtaining high-quality labeled\nmulti-turn dialogue data. Accurately tracking user preference transitions\nacross turns not only demands intensive domain expertise and contextual\nconsistency maintenance for annotators (termed \\textbf{``Annotating\nDisaster''}) but also complicates model training due to error propagation in\nsequential dependency learning. Inspired by the observation that multi-turn\npreference extraction can be decomposed into iterative executions of one-turn\nextraction processes. We propose a novel dialogue data generation framework\nnamed \\textbf{IterChat}. First, we construct a new data format that categorizes\nthe dialogue data into attributed historical preferences and one-turn\ndialogues. This reduces the probability of annotation errors and improves\nannotation efficiency. Then, to generate a high-quality and diverse dialogue\ndataset, we adopt GPT4 to pre-define the preference slots in the target\npreference extractor task and then randomly sample the subset of the slots and\ntheir corresponding schema values to create the dialogue datasets. Experimental\nresults indicate that fine-tuning or only few-shot prompting with the new\ndialogue format yields superior performance compared to the original multi-turn\ndialogues. Additionally, the new data format improves annotator efficiency with\na win rate of 28.4\\% higher than the original multi-turn dialogues.",
+      "authors": [
+        "Cheng Wang",
+        "ziru Liu",
+        "Pengcheng Tang",
+        "Mingyu Zhang",
+        "Quanyu Dai",
+        "Yue Zhu"
+      ],
+      "published": "2025-08-03T12:44:03+00:00",
+      "updated": "2025-08-03T12:44:03+00:00",
+      "arxiv_id": "2508.01739v1",
+      "url": "http://arxiv.org/pdf/2508.01739v1",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "Evaluating, Synthesizing, and Enhancing for Customer Support Conversation",
+      "abstract": "Effective customer support requires not only accurate problem solving but\nalso structured and empathetic communication aligned with professional\nstandards. However, existing dialogue datasets often lack strategic guidance,\nand real-world service data is difficult to access and annotate. To address\nthis, we introduce the task of Customer Support Conversation (CSC), aimed at\ntraining customer service agents to respond using well-defined support\nstrategies. We propose a structured CSC framework grounded in COPC guidelines,\ndefining five conversational stages and twelve strategies to guide high-quality\ninteractions. Based on this, we construct CSConv, an evaluation dataset of\n1,855 real-world customer-agent conversations rewritten using LLMs to reflect\ndeliberate strategy use, and annotated accordingly. Additionally, we develop a\nrole-playing approach that simulates strategy-rich conversations using\nLLM-powered roles aligned with the CSC framework, resulting in the training\ndataset RoleCS. Experiments show that fine-tuning strong LLMs on RoleCS\nsignificantly improves their ability to generate high-quality, strategy-aligned\nresponses on CSConv. Human evaluations further confirm gains in problem\nresolution. All code and data will be made publicly available at\nhttps://github.com/aliyun/qwen-dianjin.",
+      "authors": [
+        "Jie Zhu",
+        "Huaixia Dou",
+        "Junhui Li",
+        "Lifan Guo",
+        "Feng Chen",
+        "Chi Zhang",
+        "Fang Kong"
+      ],
+      "published": "2025-08-06T13:11:17+00:00",
+      "updated": "2025-08-06T13:11:17+00:00",
+      "arxiv_id": "2508.04423v1",
+      "url": "http://arxiv.org/pdf/2508.04423v1",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "From Monolingual to Bilingual: Investigating Language Conditioning in Large Language Models for Psycholinguistic Tasks",
+      "abstract": "Large Language Models (LLMs) exhibit strong linguistic capabilities, but\nlittle is known about how they encode psycholinguistic knowledge across\nlanguages. We investigate whether and how LLMs exhibit human-like\npsycholinguistic responses under different linguistic identities using two\ntasks: sound symbolism and word valence. We evaluate two models,\nLlama-3.3-70B-Instruct and Qwen2.5-72B-Instruct, under monolingual and\nbilingual prompting in English, Dutch, and Chinese. Behaviorally, both models\nadjust their outputs based on prompted language identity, with Qwen showing\ngreater sensitivity and sharper distinctions between Dutch and Chinese. Probing\nanalysis reveals that psycholinguistic signals become more decodable in deeper\nlayers, with Chinese prompts yielding stronger and more stable valence\nrepresentations than Dutch. Our results demonstrate that language identity\nconditions both output behavior and internal representations in LLMs, providing\nnew insights into their application as models of cross-linguistic cognition.",
+      "authors": [
+        "Shuzhou Yuan",
+        "Zhan Qu",
+        "Mario Tawfelis",
+        "Michael Färber"
+      ],
+      "published": "2025-08-04T15:10:44+00:00",
+      "updated": "2025-08-04T15:10:44+00:00",
+      "arxiv_id": "2508.02502v1",
+      "url": "http://arxiv.org/pdf/2508.02502v1",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "From Patient Burdens to User Agency: Designing for Real-Time Protection Support in Online Health Consultations",
+      "abstract": "Online medical consultation platforms, while convenient, are undermined by\nsignificant privacy risks that erode user trust. We first conducted in-depth\nsemi-structured interviews with 12 users to understand their perceptions of\nsecurity and privacy landscapes on online medical consultation platforms, as\nwell as their practices, challenges and expectation. Our analysis reveals a\ncritical disconnect between users' desires for anonymity and control, and\nplatform realities that offload the responsibility of ``privacy labor''. To\nbridge this gap, we present SafeShare, an interaction technique that leverages\nlocalized LLM to redact consultations in real-time. SafeShare balances utility\nand privacy through selectively anonymize private information. A technical\nevaluation of SafeShare's core PII detection module on 3 dataset demonstrates\nhigh efficacy, achieving 89.64\\% accuracy with Qwen3-4B on IMCS21 dataset.",
+      "authors": [
+        "Shuning Zhang",
+        "Ying Ma",
+        "Yongquan `Owen' Hu",
+        "Ting Dang",
+        "Hong Jia",
+        "Xin Yi",
+        "Hewu Li"
+      ],
+      "published": "2025-08-01T05:21:42+00:00",
+      "updated": "2025-08-01T05:21:42+00:00",
+      "arxiv_id": "2508.00328v1",
+      "url": "http://arxiv.org/pdf/2508.00328v1",
+      "categories": [
+        "cs.HC"
+      ],
+      "primary_category": "cs.HC"
+    },
+    {
+      "title": "From Stimuli to Minds: Enhancing Psychological Reasoning in LLMs via Bilateral Reinforcement Learning",
+      "abstract": "Large Language Models show promise in emotion understanding, social\nreasoning, and empathy, yet they struggle with psychologically grounded tasks\nthat require inferring implicit mental states in context-rich, ambiguous\nsettings. These limitations arise from the absence of theory-aligned\nsupervision and the difficulty of capturing nuanced mental processes in\nreal-world narratives. To address this gap, we leverage expert-labeled,\npsychologically rich scenarios and propose a trajectory-aware reinforcement\nlearning framework that explicitly imitates expert psychological thought\npatterns. By integrating real-world stimuli with structured reasoning guidance,\nour approach enables compact models to internalize social-cognitive principles,\nperform nuanced psychological inference, and support continual\nself-improvement. Comprehensive experiments across multiple benchmarks further\ndemonstrate that our models achieve expert-level interpretive capabilities,\nexhibiting strong out-of-distribution generalization and robust continual\nlearning across diverse, challenging, and psychologically grounded tasks.",
+      "authors": [
+        "Feng Yichao",
+        "Haoran Luo",
+        "Lang Feng",
+        "Shuai Zhao",
+        "Anh Tuan Luu"
+      ],
+      "published": "2025-08-04T14:24:30+00:00",
+      "updated": "2025-08-05T09:17:57+00:00",
+      "arxiv_id": "2508.02458v2",
+      "url": "http://arxiv.org/pdf/2508.02458v2",
+      "categories": [
+        "cs.DB"
+      ],
+      "primary_category": "cs.DB"
+    },
+    {
+      "title": "How Do LLMs Persuade? Linear Probes Can Uncover Persuasion Dynamics in Multi-Turn Conversations",
+      "abstract": "Large Language Models (LLMs) have started to demonstrate the ability to\npersuade humans, yet our understanding of how this dynamic transpires is\nlimited. Recent work has used linear probes, lightweight tools for analyzing\nmodel representations, to study various LLM skills such as the ability to model\nuser sentiment and political perspective. Motivated by this, we apply probes to\nstudy persuasion dynamics in natural, multi-turn conversations. We leverage\ninsights from cognitive science to train probes on distinct aspects of\npersuasion: persuasion success, persuadee personality, and persuasion strategy.\nDespite their simplicity, we show that they capture various aspects of\npersuasion at both the sample and dataset levels. For instance, probes can\nidentify the point in a conversation where the persuadee was persuaded or where\npersuasive success generally occurs across the entire dataset. We also show\nthat in addition to being faster than expensive prompting-based approaches,\nprobes can do just as well and even outperform prompting in some settings, such\nas when uncovering persuasion strategy. This suggests probes as a plausible\navenue for studying other complex behaviours such as deception and\nmanipulation, especially in multi-turn settings and large-scale dataset\nanalysis where prompting-based methods would be computationally inefficient.",
+      "authors": [
+        "Brandon Jaipersaud",
+        "David Krueger",
+        "Ekdeep Singh Lubana"
+      ],
+      "published": "2025-08-07T17:58:41+00:00",
+      "updated": "2025-08-07T17:58:41+00:00",
+      "arxiv_id": "2508.05625v1",
+      "url": "http://arxiv.org/pdf/2508.05625v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "Learning an Efficient Multi-Turn Dialogue Evaluator from Multiple Judges",
+      "abstract": "Evaluating the conversational abilities of large language models (LLMs)\nremains a challenging task. Current mainstream approaches primarily rely on the\n``LLM-as-a-judge\" paradigm, where an LLM is prompted to serve as an evaluator\nto assess dialogue quality. However, such methods often suffer from various\nbiases, which undermine the reliability and consistency of the evaluation\nresults. To mitigate these biases, recent methods employ multiple LLMs as\njudges and aggregate their judgments to select the optimal assessment. Although\neffective, this multi-judge approach incurs significant computational overhead\nduring inference. In this paper, we propose an efficient multi-turn dialogue\nevaluator that captures the collective wisdom of multiple LLM judges by\naggregating their preference knowledge into a single model. Our approach\npreserves the advantages of diverse multi-judge feedback while drastically\nreducing the evaluation cost, enabling fast and flexible dialogue quality\nassessment. Extensive experiments on seven single rating and pairwise\ncomparison dialogue evaluation benchmarks demonstrate that our method\noutperforms existing baselines across diverse scenarios, showcasing its\nefficiency and robustness.",
+      "authors": [
+        "Yuqi Tang",
+        "Kehua Feng",
+        "Yunfeng Wang",
+        "Zhiwen Chen",
+        "Chengfei Lv",
+        "Gang Yu",
+        "Qiang Zhang",
+        "Keyan Ding"
+      ],
+      "published": "2025-08-01T09:26:01+00:00",
+      "updated": "2025-08-01T09:26:01+00:00",
+      "arxiv_id": "2508.00454v1",
+      "url": "http://arxiv.org/pdf/2508.00454v1",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "MOTIF: Multi-strategy Optimization via Turn-based Interactive Framework",
+      "abstract": "Designing effective algorithmic components remains a fundamental obstacle in\ntackling NP-hard combinatorial optimization problems (COPs), where solvers\noften rely on carefully hand-crafted strategies. Despite recent advances in\nusing large language models (LLMs) to synthesize high-quality components, most\napproaches restrict the search to a single element - commonly a heuristic\nscoring function - thus missing broader opportunities for innovation. In this\npaper, we introduce a broader formulation of solver design as a multi-strategy\noptimization problem, which seeks to jointly improve a set of interdependent\ncomponents under a unified objective. To address this, we propose\nMulti-strategy Optimization via Turn-based Interactive Framework (MOTIF) - a\nnovel framework based on Monte Carlo Tree Search that facilitates turn-based\noptimization between two LLM agents. At each turn, an agent improves one\ncomponent by leveraging the history of both its own and its opponent's prior\nupdates, promoting both competitive pressure and emergent cooperation. This\nstructured interaction broadens the search landscape and encourages the\ndiscovery of diverse, high-performing solutions. Experiments across multiple\nCOP domains show that MOTIF consistently outperforms state-of-the-art methods,\nhighlighting the promise of turn-based, multi-agent prompting for fully\nautomated solver design.",
+      "authors": [
+        "Nguyen Viet Tuan Kiet",
+        "Dao Van Tung",
+        "Tran Cong Dao",
+        "Huynh Thi Thanh Binh"
+      ],
+      "published": "2025-08-05T21:45:36+00:00",
+      "updated": "2025-08-05T21:45:36+00:00",
+      "arxiv_id": "2508.03929v1",
+      "url": "http://arxiv.org/pdf/2508.03929v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI"
+    },
+    {
+      "title": "Multimodal Large Language Models for End-to-End Affective Computing: Benchmarking and Boosting with Generative Knowledge Prompting",
+      "abstract": "Multimodal Affective Computing (MAC) aims to recognize and interpret human\nemotions by integrating information from diverse modalities such as text,\nvideo, and audio. Recent advancements in Multimodal Large Language Models\n(MLLMs) have significantly reshaped the landscape of MAC by offering a unified\nframework for processing and aligning cross-modal information. However,\npractical challenges remain, including performance variability across complex\nMAC tasks and insufficient understanding of how architectural designs and data\ncharacteristics impact affective analysis. To address these gaps, we conduct a\nsystematic benchmark evaluation of state-of-the-art open-source MLLMs capable\nof concurrently processing audio, visual, and textual modalities across\nmultiple established MAC datasets. Our evaluation not only compares the\nperformance of these MLLMs but also provides actionable insights into model\noptimization by analyzing the influence of model architectures and dataset\nproperties. Furthermore, we propose a novel hybrid strategy that combines\ngenerative knowledge prompting with supervised fine-tuning to enhance MLLMs'\naffective computing capabilities. Experimental results demonstrate that this\nintegrated approach significantly improves performance across various MAC\ntasks, offering a promising avenue for future research and development in this\nfield. Our code is released on https://github.com/LuoMSen/MLLM-MAC.",
+      "authors": [
+        "Miaosen Luo",
+        "Jiesen Long",
+        "Zequn Li",
+        "Yunying Yang",
+        "Yuncheng Jiang",
+        "Sijie Mai"
+      ],
+      "published": "2025-08-04T13:49:03+00:00",
+      "updated": "2025-08-04T13:49:03+00:00",
+      "arxiv_id": "2508.02429v1",
+      "url": "http://arxiv.org/pdf/2508.02429v1",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.AI"
+    },
+    {
+      "title": "ProKG-Dial: Progressive Multi-Turn Dialogue Construction with Domain Knowledge Graphs",
+      "abstract": "Current large language models (LLMs) excel at general NLP tasks but often\nlack domain specific precision in professional settings. Building a high\nquality domain specific multi turn dialogue dataset is essential for developing\nspecialized conversational systems. However, existing methods such as manual\nannotation, simulated human LLM interactions, and role based LLM dialogues are\nresource intensive or suffer from limitations in dialogue quality and domain\ncoverage. To address these challenges, we introduce ProKG Dial, a progressive\nframework for constructing knowledge intensive multi turn dialogue datasets\nusing domain specific knowledge graphs (KGs). ProKG Dial leverages the\nstructured nature of KGs to encode complex domain knowledge and relationships,\nproviding a solid foundation for generating meaningful and coherent dialogues.\nSpecifically, ProKG Dial begins by applying community detection to partition\nthe KG into semantically cohesive subgraphs. For each subgraph, the framework\nincrementally generates a series of questions and answers centered around a\ntarget entity, ensuring relevance and coverage. A rigorous filtering step is\nemployed to maintain high dialogue quality. We validate ProKG Dial on a medical\nknowledge graph by evaluating the generated dialogues in terms of diversity,\nsemantic coherence, and entity coverage. Furthermore, we fine tune a base LLM\non the resulting dataset and benchmark it against several baselines. Both\nautomatic metrics and human evaluations demonstrate that ProKG Dial\nsubstantially improves dialogue quality and domain specific performance,\nhighlighting its effectiveness and practical utility.",
+      "authors": [
+        "Yuanyuan Liang",
+        "Xiaoman Wang",
+        "Tingyu Xie",
+        "Lei Pan"
+      ],
+      "published": "2025-08-03T17:52:42+00:00",
+      "updated": "2025-08-03T17:52:42+00:00",
+      "arxiv_id": "2508.01869v1",
+      "url": "http://arxiv.org/pdf/2508.01869v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI"
+    },
+    {
+      "title": "Somatic in the East, Psychological in the West?: Investigating Clinically-Grounded Cross-Cultural Depression Symptom Expression in LLMs",
+      "abstract": "Prior clinical psychology research shows that Western individuals with\ndepression tend to report psychological symptoms, while Eastern individuals\nreport somatic ones. We test whether Large Language Models (LLMs), which are\nincreasingly used in mental health, reproduce these cultural patterns by\nprompting them with Western or Eastern personas. Results show that LLMs largely\nfail to replicate the patterns when prompted in English, though prompting in\nmajor Eastern languages (i.e., Chinese, Japanese, and Hindi) improves alignment\nin several configurations. Our analysis pinpoints two key reasons for this\nfailure: the models' low sensitivity to cultural personas and a strong,\nculturally invariant symptom hierarchy that overrides cultural cues. These\nfindings reveal that while prompt language is important, current\ngeneral-purpose LLMs lack the robust, culture-aware capabilities essential for\nsafe and effective mental health applications.",
+      "authors": [
+        "Shintaro Sakai",
+        "Jisun An",
+        "Migyeong Kang",
+        "Haewoon Kwak"
+      ],
+      "published": "2025-08-05T09:25:38+00:00",
+      "updated": "2025-08-05T09:25:38+00:00",
+      "arxiv_id": "2508.03247v1",
+      "url": "http://arxiv.org/pdf/2508.03247v1",
+      "categories": [
+        "cs.CL",
+        "cs.CY"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "TalkDep: Clinically Grounded LLM Personas for Conversation-Centric Depression Screening",
+      "abstract": "The increasing demand for mental health services has outpaced the\navailability of real training data to develop clinical professionals, leading\nto limited support for the diagnosis of depression. This shortage has motivated\nthe development of simulated or virtual patients to assist in training and\nevaluation, but existing approaches often fail to generate clinically valid,\nnatural, and diverse symptom presentations. In this work, we embrace the recent\nadvanced language models as the backbone and propose a novel\nclinician-in-the-loop patient simulation pipeline, TalkDep, with access to\ndiversified patient profiles to develop simulated patients. By conditioning the\nmodel on psychiatric diagnostic criteria, symptom severity scales, and\ncontextual factors, our goal is to create authentic patient responses that can\nbetter support diagnostic model training and evaluation. We verify the\nreliability of these simulated patients with thorough assessments conducted by\nclinical professionals. The availability of validated simulated patients offers\na scalable and adaptable resource for improving the robustness and\ngeneralisability of automatic depression diagnosis systems.",
+      "authors": [
+        "Xi Wang",
+        "Anxo Perez",
+        "Javier Parapar",
+        "Fabio Crestani"
+      ],
+      "published": "2025-08-06T09:30:47+00:00",
+      "updated": "2025-08-06T09:30:47+00:00",
+      "arxiv_id": "2508.04248v1",
+      "url": "http://arxiv.org/pdf/2508.04248v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "Unveiling the Landscape of Clinical Depression Assessment: From Behavioral Signatures to Psychiatric Reasoning",
+      "abstract": "Depression is a widespread mental disorder that affects millions worldwide.\nWhile automated depression assessment shows promise, most studies rely on\nlimited or non-clinically validated data, and often prioritize complex model\ndesign over real-world effectiveness. In this paper, we aim to unveil the\nlandscape of clinical depression assessment. We introduce C-MIND, a clinical\nneuropsychiatric multimodal diagnosis dataset collected over two years from\nreal hospital visits. Each participant completes three structured psychiatric\ntasks and receives a final diagnosis from expert clinicians, with informative\naudio, video, transcript, and functional near-infrared spectroscopy (fNIRS)\nsignals recorded. Using C-MIND, we first analyze behavioral signatures relevant\nto diagnosis. We train a range of classical models to quantify how different\ntasks and modalities contribute to diagnostic performance, and dissect the\neffectiveness of their combinations. We then explore whether LLMs can perform\npsychiatric reasoning like clinicians and identify their clear limitations in\nrealistic clinical settings. In response, we propose to guide the reasoning\nprocess with clinical expertise and consistently improves LLM diagnostic\nperformance by up to 10% in Macro-F1 score. We aim to build an infrastructure\nfor clinical depression assessment from both data and algorithmic perspectives,\nenabling C-MIND to facilitate grounded and reliable research for mental\nhealthcare.",
+      "authors": [
+        "Zhuang Chen",
+        "Guanqun Bi",
+        "Wen Zhang",
+        "Jiawei Hu",
+        "Aoyun Wang",
+        "Xiyao Xiao",
+        "Kun Feng",
+        "Minlie Huang"
+      ],
+      "published": "2025-08-06T15:13:24+00:00",
+      "updated": "2025-08-06T15:13:24+00:00",
+      "arxiv_id": "2508.04531v1",
+      "url": "http://arxiv.org/pdf/2508.04531v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "VS-LLM: Visual-Semantic Depression Assessment based on LLM for Drawing Projection Test",
+      "abstract": "The Drawing Projection Test (DPT) is an essential tool in art therapy,\nallowing psychologists to assess participants' mental states through their\nsketches. Specifically, through sketches with the theme of \"a person picking an\napple from a tree (PPAT)\", it can be revealed whether the participants are in\nmental states such as depression. Compared with scales, the DPT can enrich\npsychologists' understanding of an individual's mental state. However, the\ninterpretation of the PPAT is laborious and depends on the experience of the\npsychologists. To address this issue, we propose an effective identification\nmethod to support psychologists in conducting a large-scale automatic DPT.\nUnlike traditional sketch recognition, DPT more focus on the overall evaluation\nof the sketches, such as color usage and space utilization. Moreover, PPAT\nimposes a time limit and prohibits verbal reminders, resulting in low drawing\naccuracy and a lack of detailed depiction. To address these challenges, we\npropose the following efforts: (1) Providing an experimental environment for\nautomated analysis of PPAT sketches for depression assessment; (2) Offering a\nVisual-Semantic depression assessment based on LLM (VS-LLM) method; (3)\nExperimental results demonstrate that our method improves by 17.6% compared to\nthe psychologist assessment method. We anticipate that this work will\ncontribute to the research in mental state assessment based on PPAT sketches'\nelements recognition. Our datasets and codes are available at\nhttps://github.com/wmeiqi/VS-LLM.",
+      "authors": [
+        "Meiqi Wu",
+        "Yaxuan Kang",
+        "Xuchen Li",
+        "Shiyu Hu",
+        "Xiaotang Chen",
+        "Yunfeng Kang",
+        "Weiqiang Wang",
+        "Kaiqi Huang"
+      ],
+      "published": "2025-08-07T11:59:50+00:00",
+      "updated": "2025-08-07T11:59:50+00:00",
+      "arxiv_id": "2508.05299v1",
+      "url": "http://arxiv.org/pdf/2508.05299v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV"
+    },
+    {
+      "title": "\\textsc{SimInstruct}: A Responsible Tool for Collecting Scaffolding Dialogues Between Experts and LLM-Simulated Novices",
+      "abstract": "High-quality, multi-turn instructional dialogues between novices and experts\nare essential for developing AI systems that support teaching, learning, and\ndecision-making. These dialogues often involve scaffolding -- the process by\nwhich an expert supports a novice's thinking through questions, feedback, and\nstep-by-step guidance. However, such data are scarce due to privacy concerns in\nrecording and the vulnerability inherent in help-seeking. We present\nSimInstruct, a scalable, expert-in-the-loop tool for collecting scaffolding\ndialogues. Using teaching development coaching as an example domain,\nSimInstruct simulates novice instructors via LLMs, varying their teaching\nchallenges and LLM's persona traits, while human experts provide multi-turn\nfeedback, reasoning, and instructional support. This design enables the\ncreation of realistic, pedagogically rich dialogues without requiring real\nnovice participants. Our results reveal that persona traits, such as\nextroversion and introversion, meaningfully influence how experts engage.\nCompared to real mentoring recordings, SimInstruct dialogues demonstrate\ncomparable pedagogical relevance and cognitive depth. Experts also reported the\nprocess as engaging and reflective, improving both data quality and their own\nprofessional insight. We further fine-tuned a LLaMA model to be an expert model\nusing the augmented dataset, which outperformed GPT-4o in instructional\nquality. Our analysis highlights GPT-4o's limitations in weak reflective\nquestioning, overuse of generic praise, a condescending tone, and a tendency to\noverwhelm novices with excessive suggestions.",
+      "authors": [
+        "Si Chen",
+        "Izzy Molnar",
+        "Ting Hua",
+        "Peiyu Li",
+        "Le Huy Khiem",
+        "G. Alex Ambrose",
+        "Jim Lang",
+        "Ronald Metoyer",
+        "Nitesh V. Chawla"
+      ],
+      "published": "2025-08-06T13:16:10+00:00",
+      "updated": "2025-08-06T13:16:10+00:00",
+      "arxiv_id": "2508.04428v1",
+      "url": "http://arxiv.org/pdf/2508.04428v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI"
+    }
+  ]
+}

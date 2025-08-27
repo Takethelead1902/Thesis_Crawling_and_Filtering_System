@@ -1,0 +1,247 @@
+{
+  "type": "fine_ranking_final",
+  "input_papers": 25,
+  "rounds_count": 2,
+  "max_concurrent": 30,
+  "round_results": [
+    {
+      "round": 1,
+      "count": 11
+    },
+    {
+      "round": 2,
+      "count": 11
+    }
+  ],
+  "final_relevant_papers_count": 11,
+  "selection_rate": "44.0%",
+  "relevant_papers": [
+    {
+      "title": "AGENTiGraph: A Multi-Agent Knowledge Graph Framework for Interactive, Domain-Specific LLM Chatbots",
+      "abstract": "AGENTiGraph is a user-friendly, agent-driven system that enables intuitive\ninteraction and management of domain-specific data through the manipulation of\nknowledge graphs in natural language. It gives non-technical users a complete,\nvisual solution to incrementally build and refine their knowledge bases,\nallowing multi-round dialogues and dynamic updates without specialized query\nlanguages. The flexible design of AGENTiGraph, including intent classification,\ntask planning, and automatic knowledge integration, ensures seamless reasoning\nbetween diverse tasks. Evaluated on a 3,500-query benchmark within an\neducational scenario, the system outperforms strong zero-shot baselines\n(achieving 95.12% classification accuracy, 90.45% execution success),\nindicating potential scalability to compliance-critical or multi-step queries\nin legal and medical domains, e.g., incorporating new statutes or research on\nthe fly. Our open-source demo offers a powerful new paradigm for multi-turn\nenterprise knowledge management that bridges LLMs and structured graphs.",
+      "authors": [
+        "Xinjie Zhao",
+        "Moritz Blum",
+        "Fan Gao",
+        "Yingjian Chen",
+        "Boming Yang",
+        "Luis Marquez-Carpintero",
+        "Mónica Pina-Navarro",
+        "Yanran Fu",
+        "So Morikawa",
+        "Yusuke Iwasawa",
+        "Yutaka Matsuo",
+        "Chanjun Park",
+        "Irene Li"
+      ],
+      "published": "2025-08-05T01:55:06+00:00",
+      "updated": "2025-08-05T01:55:06+00:00",
+      "arxiv_id": "2508.02999v1",
+      "url": "http://arxiv.org/pdf/2508.02999v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.AI"
+    },
+    {
+      "title": "Can LLMs Generate High-Quality Task-Specific Conversations?",
+      "abstract": "This paper introduces a parameterization framework for controlling\nconversation quality in large language models. We explore nine key parameters\nacross six dimensions that enable precise specification of dialogue properties.\nThrough experiments with state-of-the-art LLMs, we demonstrate that\nparameter-based control produces statistically significant differences in\ngenerated conversation properties. Our approach addresses challenges in\nconversation generation, including topic coherence, knowledge progression,\ncharacter consistency, and control granularity. The framework provides a\nstandardized method for conversation quality control with applications in\neducation, therapy, customer service, and entertainment. Future work will focus\non implementing additional parameters through architectural modifications and\ndeveloping benchmark datasets for evaluation.",
+      "authors": [
+        "Shengqi Li",
+        "Amarnath Gupta"
+      ],
+      "published": "2025-08-04T22:07:08+00:00",
+      "updated": "2025-08-04T22:07:08+00:00",
+      "arxiv_id": "2508.02931v1",
+      "url": "http://arxiv.org/pdf/2508.02931v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "Dialogue Systems Engineering: A Survey and Future Directions",
+      "abstract": "This paper proposes to refer to the field of software engineering related to\nthe life cycle of dialogue systems as Dialogue Systems Engineering, and surveys\nthis field while also discussing its future directions. With the advancement of\nlarge language models, the core technologies underlying dialogue systems have\nsignificantly progressed. As a result, dialogue system technology is now\nexpected to be applied to solving various societal issues and in business\ncontexts. To achieve this, it is important to build, operate, and continuously\nimprove dialogue systems correctly and efficiently. Accordingly, in addition to\napplying existing software engineering knowledge, it is becoming increasingly\nimportant to evolve software engineering tailored specifically to dialogue\nsystems. In this paper, we enumerate the knowledge areas of dialogue systems\nengineering based on those of software engineering, as defined in the Software\nEngineering Body of Knowledge (SWEBOK) Version 4.0, and survey each area. Based\non this survey, we identify unexplored topics in each area and discuss the\nfuture direction of dialogue systems engineering.",
+      "authors": [
+        "Mikio Nakano",
+        "Hironori Takeuchi",
+        "Sadahiro Yoshikawa",
+        "Yoichi Matsuyama",
+        "Kazunori Komatani"
+      ],
+      "published": "2025-08-04T10:49:01+00:00",
+      "updated": "2025-08-04T10:49:01+00:00",
+      "arxiv_id": "2508.02279v1",
+      "url": "http://arxiv.org/pdf/2508.02279v1",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.SE"
+    },
+    {
+      "title": "Enhancing the Preference Extractor in Multi-turn Dialogues: From Annotating Disasters to Accurate Preference Extraction",
+      "abstract": "Identifying user preferences in dialogue systems is a pivotal aspect of\nproviding satisfying services. Current research shows that using large language\nmodels (LLMs) to fine-tune a task-specific preference extractor yields\nexcellent results in terms of accuracy and generalization. However, the primary\nchallenge stems from the inherent difficulty in obtaining high-quality labeled\nmulti-turn dialogue data. Accurately tracking user preference transitions\nacross turns not only demands intensive domain expertise and contextual\nconsistency maintenance for annotators (termed \\textbf{``Annotating\nDisaster''}) but also complicates model training due to error propagation in\nsequential dependency learning. Inspired by the observation that multi-turn\npreference extraction can be decomposed into iterative executions of one-turn\nextraction processes. We propose a novel dialogue data generation framework\nnamed \\textbf{IterChat}. First, we construct a new data format that categorizes\nthe dialogue data into attributed historical preferences and one-turn\ndialogues. This reduces the probability of annotation errors and improves\nannotation efficiency. Then, to generate a high-quality and diverse dialogue\ndataset, we adopt GPT4 to pre-define the preference slots in the target\npreference extractor task and then randomly sample the subset of the slots and\ntheir corresponding schema values to create the dialogue datasets. Experimental\nresults indicate that fine-tuning or only few-shot prompting with the new\ndialogue format yields superior performance compared to the original multi-turn\ndialogues. Additionally, the new data format improves annotator efficiency with\na win rate of 28.4\\% higher than the original multi-turn dialogues.",
+      "authors": [
+        "Cheng Wang",
+        "ziru Liu",
+        "Pengcheng Tang",
+        "Mingyu Zhang",
+        "Quanyu Dai",
+        "Yue Zhu"
+      ],
+      "published": "2025-08-03T12:44:03+00:00",
+      "updated": "2025-08-03T12:44:03+00:00",
+      "arxiv_id": "2508.01739v1",
+      "url": "http://arxiv.org/pdf/2508.01739v1",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "Evaluating, Synthesizing, and Enhancing for Customer Support Conversation",
+      "abstract": "Effective customer support requires not only accurate problem solving but\nalso structured and empathetic communication aligned with professional\nstandards. However, existing dialogue datasets often lack strategic guidance,\nand real-world service data is difficult to access and annotate. To address\nthis, we introduce the task of Customer Support Conversation (CSC), aimed at\ntraining customer service agents to respond using well-defined support\nstrategies. We propose a structured CSC framework grounded in COPC guidelines,\ndefining five conversational stages and twelve strategies to guide high-quality\ninteractions. Based on this, we construct CSConv, an evaluation dataset of\n1,855 real-world customer-agent conversations rewritten using LLMs to reflect\ndeliberate strategy use, and annotated accordingly. Additionally, we develop a\nrole-playing approach that simulates strategy-rich conversations using\nLLM-powered roles aligned with the CSC framework, resulting in the training\ndataset RoleCS. Experiments show that fine-tuning strong LLMs on RoleCS\nsignificantly improves their ability to generate high-quality, strategy-aligned\nresponses on CSConv. Human evaluations further confirm gains in problem\nresolution. All code and data will be made publicly available at\nhttps://github.com/aliyun/qwen-dianjin.",
+      "authors": [
+        "Jie Zhu",
+        "Huaixia Dou",
+        "Junhui Li",
+        "Lifan Guo",
+        "Feng Chen",
+        "Chi Zhang",
+        "Fang Kong"
+      ],
+      "published": "2025-08-06T13:11:17+00:00",
+      "updated": "2025-08-06T13:11:17+00:00",
+      "arxiv_id": "2508.04423v1",
+      "url": "http://arxiv.org/pdf/2508.04423v1",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "From Stimuli to Minds: Enhancing Psychological Reasoning in LLMs via Bilateral Reinforcement Learning",
+      "abstract": "Large Language Models show promise in emotion understanding, social\nreasoning, and empathy, yet they struggle with psychologically grounded tasks\nthat require inferring implicit mental states in context-rich, ambiguous\nsettings. These limitations arise from the absence of theory-aligned\nsupervision and the difficulty of capturing nuanced mental processes in\nreal-world narratives. To address this gap, we leverage expert-labeled,\npsychologically rich scenarios and propose a trajectory-aware reinforcement\nlearning framework that explicitly imitates expert psychological thought\npatterns. By integrating real-world stimuli with structured reasoning guidance,\nour approach enables compact models to internalize social-cognitive principles,\nperform nuanced psychological inference, and support continual\nself-improvement. Comprehensive experiments across multiple benchmarks further\ndemonstrate that our models achieve expert-level interpretive capabilities,\nexhibiting strong out-of-distribution generalization and robust continual\nlearning across diverse, challenging, and psychologically grounded tasks.",
+      "authors": [
+        "Feng Yichao",
+        "Haoran Luo",
+        "Lang Feng",
+        "Shuai Zhao",
+        "Anh Tuan Luu"
+      ],
+      "published": "2025-08-04T14:24:30+00:00",
+      "updated": "2025-08-05T09:17:57+00:00",
+      "arxiv_id": "2508.02458v2",
+      "url": "http://arxiv.org/pdf/2508.02458v2",
+      "categories": [
+        "cs.DB"
+      ],
+      "primary_category": "cs.DB"
+    },
+    {
+      "title": "How Do LLMs Persuade? Linear Probes Can Uncover Persuasion Dynamics in Multi-Turn Conversations",
+      "abstract": "Large Language Models (LLMs) have started to demonstrate the ability to\npersuade humans, yet our understanding of how this dynamic transpires is\nlimited. Recent work has used linear probes, lightweight tools for analyzing\nmodel representations, to study various LLM skills such as the ability to model\nuser sentiment and political perspective. Motivated by this, we apply probes to\nstudy persuasion dynamics in natural, multi-turn conversations. We leverage\ninsights from cognitive science to train probes on distinct aspects of\npersuasion: persuasion success, persuadee personality, and persuasion strategy.\nDespite their simplicity, we show that they capture various aspects of\npersuasion at both the sample and dataset levels. For instance, probes can\nidentify the point in a conversation where the persuadee was persuaded or where\npersuasive success generally occurs across the entire dataset. We also show\nthat in addition to being faster than expensive prompting-based approaches,\nprobes can do just as well and even outperform prompting in some settings, such\nas when uncovering persuasion strategy. This suggests probes as a plausible\navenue for studying other complex behaviours such as deception and\nmanipulation, especially in multi-turn settings and large-scale dataset\nanalysis where prompting-based methods would be computationally inefficient.",
+      "authors": [
+        "Brandon Jaipersaud",
+        "David Krueger",
+        "Ekdeep Singh Lubana"
+      ],
+      "published": "2025-08-07T17:58:41+00:00",
+      "updated": "2025-08-07T17:58:41+00:00",
+      "arxiv_id": "2508.05625v1",
+      "url": "http://arxiv.org/pdf/2508.05625v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "Learning an Efficient Multi-Turn Dialogue Evaluator from Multiple Judges",
+      "abstract": "Evaluating the conversational abilities of large language models (LLMs)\nremains a challenging task. Current mainstream approaches primarily rely on the\n``LLM-as-a-judge\" paradigm, where an LLM is prompted to serve as an evaluator\nto assess dialogue quality. However, such methods often suffer from various\nbiases, which undermine the reliability and consistency of the evaluation\nresults. To mitigate these biases, recent methods employ multiple LLMs as\njudges and aggregate their judgments to select the optimal assessment. Although\neffective, this multi-judge approach incurs significant computational overhead\nduring inference. In this paper, we propose an efficient multi-turn dialogue\nevaluator that captures the collective wisdom of multiple LLM judges by\naggregating their preference knowledge into a single model. Our approach\npreserves the advantages of diverse multi-judge feedback while drastically\nreducing the evaluation cost, enabling fast and flexible dialogue quality\nassessment. Extensive experiments on seven single rating and pairwise\ncomparison dialogue evaluation benchmarks demonstrate that our method\noutperforms existing baselines across diverse scenarios, showcasing its\nefficiency and robustness.",
+      "authors": [
+        "Yuqi Tang",
+        "Kehua Feng",
+        "Yunfeng Wang",
+        "Zhiwen Chen",
+        "Chengfei Lv",
+        "Gang Yu",
+        "Qiang Zhang",
+        "Keyan Ding"
+      ],
+      "published": "2025-08-01T09:26:01+00:00",
+      "updated": "2025-08-01T09:26:01+00:00",
+      "arxiv_id": "2508.00454v1",
+      "url": "http://arxiv.org/pdf/2508.00454v1",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "ProKG-Dial: Progressive Multi-Turn Dialogue Construction with Domain Knowledge Graphs",
+      "abstract": "Current large language models (LLMs) excel at general NLP tasks but often\nlack domain specific precision in professional settings. Building a high\nquality domain specific multi turn dialogue dataset is essential for developing\nspecialized conversational systems. However, existing methods such as manual\nannotation, simulated human LLM interactions, and role based LLM dialogues are\nresource intensive or suffer from limitations in dialogue quality and domain\ncoverage. To address these challenges, we introduce ProKG Dial, a progressive\nframework for constructing knowledge intensive multi turn dialogue datasets\nusing domain specific knowledge graphs (KGs). ProKG Dial leverages the\nstructured nature of KGs to encode complex domain knowledge and relationships,\nproviding a solid foundation for generating meaningful and coherent dialogues.\nSpecifically, ProKG Dial begins by applying community detection to partition\nthe KG into semantically cohesive subgraphs. For each subgraph, the framework\nincrementally generates a series of questions and answers centered around a\ntarget entity, ensuring relevance and coverage. A rigorous filtering step is\nemployed to maintain high dialogue quality. We validate ProKG Dial on a medical\nknowledge graph by evaluating the generated dialogues in terms of diversity,\nsemantic coherence, and entity coverage. Furthermore, we fine tune a base LLM\non the resulting dataset and benchmark it against several baselines. Both\nautomatic metrics and human evaluations demonstrate that ProKG Dial\nsubstantially improves dialogue quality and domain specific performance,\nhighlighting its effectiveness and practical utility.",
+      "authors": [
+        "Yuanyuan Liang",
+        "Xiaoman Wang",
+        "Tingyu Xie",
+        "Lei Pan"
+      ],
+      "published": "2025-08-03T17:52:42+00:00",
+      "updated": "2025-08-03T17:52:42+00:00",
+      "arxiv_id": "2508.01869v1",
+      "url": "http://arxiv.org/pdf/2508.01869v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI"
+    },
+    {
+      "title": "TalkDep: Clinically Grounded LLM Personas for Conversation-Centric Depression Screening",
+      "abstract": "The increasing demand for mental health services has outpaced the\navailability of real training data to develop clinical professionals, leading\nto limited support for the diagnosis of depression. This shortage has motivated\nthe development of simulated or virtual patients to assist in training and\nevaluation, but existing approaches often fail to generate clinically valid,\nnatural, and diverse symptom presentations. In this work, we embrace the recent\nadvanced language models as the backbone and propose a novel\nclinician-in-the-loop patient simulation pipeline, TalkDep, with access to\ndiversified patient profiles to develop simulated patients. By conditioning the\nmodel on psychiatric diagnostic criteria, symptom severity scales, and\ncontextual factors, our goal is to create authentic patient responses that can\nbetter support diagnostic model training and evaluation. We verify the\nreliability of these simulated patients with thorough assessments conducted by\nclinical professionals. The availability of validated simulated patients offers\na scalable and adaptable resource for improving the robustness and\ngeneralisability of automatic depression diagnosis systems.",
+      "authors": [
+        "Xi Wang",
+        "Anxo Perez",
+        "Javier Parapar",
+        "Fabio Crestani"
+      ],
+      "published": "2025-08-06T09:30:47+00:00",
+      "updated": "2025-08-06T09:30:47+00:00",
+      "arxiv_id": "2508.04248v1",
+      "url": "http://arxiv.org/pdf/2508.04248v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL"
+    },
+    {
+      "title": "\\textsc{SimInstruct}: A Responsible Tool for Collecting Scaffolding Dialogues Between Experts and LLM-Simulated Novices",
+      "abstract": "High-quality, multi-turn instructional dialogues between novices and experts\nare essential for developing AI systems that support teaching, learning, and\ndecision-making. These dialogues often involve scaffolding -- the process by\nwhich an expert supports a novice's thinking through questions, feedback, and\nstep-by-step guidance. However, such data are scarce due to privacy concerns in\nrecording and the vulnerability inherent in help-seeking. We present\nSimInstruct, a scalable, expert-in-the-loop tool for collecting scaffolding\ndialogues. Using teaching development coaching as an example domain,\nSimInstruct simulates novice instructors via LLMs, varying their teaching\nchallenges and LLM's persona traits, while human experts provide multi-turn\nfeedback, reasoning, and instructional support. This design enables the\ncreation of realistic, pedagogically rich dialogues without requiring real\nnovice participants. Our results reveal that persona traits, such as\nextroversion and introversion, meaningfully influence how experts engage.\nCompared to real mentoring recordings, SimInstruct dialogues demonstrate\ncomparable pedagogical relevance and cognitive depth. Experts also reported the\nprocess as engaging and reflective, improving both data quality and their own\nprofessional insight. We further fine-tuned a LLaMA model to be an expert model\nusing the augmented dataset, which outperformed GPT-4o in instructional\nquality. Our analysis highlights GPT-4o's limitations in weak reflective\nquestioning, overuse of generic praise, a condescending tone, and a tendency to\noverwhelm novices with excessive suggestions.",
+      "authors": [
+        "Si Chen",
+        "Izzy Molnar",
+        "Ting Hua",
+        "Peiyu Li",
+        "Le Huy Khiem",
+        "G. Alex Ambrose",
+        "Jim Lang",
+        "Ronald Metoyer",
+        "Nitesh V. Chawla"
+      ],
+      "published": "2025-08-06T13:16:10+00:00",
+      "updated": "2025-08-06T13:16:10+00:00",
+      "arxiv_id": "2508.04428v1",
+      "url": "http://arxiv.org/pdf/2508.04428v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI"
+    }
+  ]
+}

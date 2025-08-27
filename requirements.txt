@@ -1,0 +1,10 @@
+gradio
+openai
+aiofiles
+tqdm
+python-multipart
+requests
+beautifulsoup4
+jsonlines
+numpy
+pandas
