@@ -1,9 +1,10 @@
 # Thesis Crawling and Filtering System
 
 <div align="center">
+
 [![Python Version](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/Gradio-4.37-orange?style=for-the-badge&logo=gradio)](https://www.gradio.app/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 </div>
 
